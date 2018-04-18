@@ -1,0 +1,215 @@
+body,
+div,
+span,
+header,
+footer,
+nav,
+section,
+aside,
+article,
+ul,
+dl,
+dt,
+dd,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+b,
+textarea,
+button,
+input,
+select,
+figure,
+figcaption {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-style: normal;
+  text-decoration: none;
+  border: none;
+  font-weight: normal;
+  font-family: "Microsoft Yahei";
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  &:hover {
+    outline: none;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a,
+button,
+input,
+optgroup,
+select,
+textarea {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+textarea {
+  -webkit-appearance: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  //background-color: #F5F5F5;
+}
+
+.clear:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.clear {
+  zoom: 1;
+}
+
+.back_img {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.margin {
+  margin: 0 auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+  color: #2c3e50;
+}
+
+//home.vue
+.el-menu-item,
+.el-submenu__title {
+  color: #fff;
+}
+
+.el-menu .el-menu-item,
+.el-submenu .el-submenu__title {
+  height: 46px;
+  line-height: 46px;
+  color: #e5e5e5;
+}
+
+.el-menu-item:hover,
+.el-submenu .el-menu-item:hover,
+.el-submenu__title:hover {
+  background-color: #7ed2df !important;
+}
+
+.el-menu--dark .el-submenu .el-menu .el-menu-item:hover {
+  background-color: #00C1DE !important;
+}
+
+.el-submenu .el-menu-item {
+  background-color: #333744 !important
+}
+
+.el-submenu .el-menu-item:hover {
+  background-color: #4A5064 !important
+}
+
+.el-submenu .el-menu-item.is-active,
+.el-menu-item.is-active,
+.el-submenu .el-menu-item.is-active:hover,
+.el-menu-item.is-active:hover {
+  background-color: #00C1DE !important;
+  color: #fff !important;
+}
+
+.uploading {
+  width: 80px !important;
+  height: 80px !important;
+  margin: 0 auto;
+}
+.el-form-item__label {
+  line-height: normal !important;
+}
+.el-upload-list--picture-card .el-upload-list__item {
+  width: 80px !important;
+  height: 80px !important;
+}
+
+.el-upload--picture-card {
+  width: 80px !important;
+  height: 80px !important;
+  line-height: 80px !important;
+}
+
+.el-menu .iconfont {
+  vertical-align: baseline;
+  margin-right: 6px;
+  color: #ffffff;
+}
+
+.el-dialog__header {
+  padding-left: 52px !important;
+}
+
+.el-menu {
+  background-color: #324157 !important;
+  border: none !important;
+}
+
+.el-pagination__total {
+  display: none !important;
+}
+
+.warp-breadcrum {
+  margin: 5px 10px 15px 0px;
+}
+
+.el-table thead {
+  background-color: #e5e5e5 !important;
+}
+
+.el-table tr {
+  background-color: transparent !important;
+}
+
+.pad-a {
+  padding-top: 10px;
+}
+
+.el-dropdown {
+  cursor: pointer !important;
+}

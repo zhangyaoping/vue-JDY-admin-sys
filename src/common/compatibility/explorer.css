@@ -1,0 +1,162 @@
+.browserCover {
+    width: 100%;
+    background: rgba(146, 146, 146, 0.88);
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    font: 14px/1.5 "PingFang SC", "微软雅黑", "Microsoft YaHei", Helvetica, "Helvetica Neue", Tahoma, Arial, sans-serif;
+    overflow: hidden;
+    z-index: 9999;
+}
+
+.pt120 {
+    padding-top: 120px;
+}
+
+.pb112 {
+    padding-bottom: 112px;
+}
+
+.exp-container {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -63%);
+    -webkit-transform: translate(0, -63%);
+    -moz-transform: translate(0, -63%);
+    -ms-transform: translate(0, -63%);
+    -o-transform: translate(0, -63%);
+}
+
+.clearFix:after {
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    content: "";
+}
+
+#please {
+    font-family: PingFangSC-Semibold;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 2.18px;
+    padding-bottom: 12px;
+    line-height: 34px;
+}
+
+.browsers-box div div {
+    width: 100px;
+    height: 100px;
+    /*background: url(http://biding365-v1.oss-cn-hangzhou.aliyuncs.com/static/resource/explorer-compatible/image/browser.png) no-repeat center;*/
+    background: url(image/browser.png) no-repeat;
+    margin: auto;
+}
+
+.browsers .br1 {
+    background-position: 14px 0;
+}
+
+.browsers .br2 {
+    background-position: 14px -200px;
+}
+
+.browsers .br3 {
+    background-position: 14px -400px;
+}
+
+.browsers .br4 {
+    background-position: 11px -600px;
+}
+
+.browsers .br5 {
+    background-position: 12px -800px;
+}
+
+.browsers .br6 {
+    background-position: 14px -1000px;
+}
+
+.browsers .br7 {
+    background-position: 14px -1200px;
+}
+
+.browsers {
+    float: left;
+}
+
+.browsers-box {
+    box-sizing: content-box;
+    width: 896px;
+    text-align: center;
+    height: 123px;
+    background: rgba(255, 255, 255, .94);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.20);
+    padding: 60px 92px;
+    margin: 0 auto;
+}
+
+.browsers-box a {
+    display: block;
+    width: 128px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #6A6A6A;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.browsers-box a:hover {
+    color: #3879d9;
+}
+
+.notice_title {
+    font-family: PingFangSC-Semibold;
+    font-size: 34px;
+    color: #FFFFFF;
+    line-height: 60px;
+    letter-spacing: 3px;
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 83px;
+    background: url(image/warn.png) no-repeat 0 5px;
+    background-size: 58px;
+}
+
+.notice_cont {
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 1.64px;
+    line-height: 24px;
+    padding-top: 12px;
+}
+
+#exit_item {
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin: 50px auto 0;
+    border-radius: 40px;
+    background: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #6A6A6A;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.20);
+    cursor: pointer;
+}
+
+#exit_item:hover {
+    color: #3879d9;
+}
+
+.notice_browser {
+    color: #fff;
+    margin: 0;
+}
